@@ -1,0 +1,203 @@
+body{
+
+background-color: #f8f4e5;
+
+}
+
+
+
+
+
+.header-align{
+	
+	margin-top:20px;
+	
+}
+
+/*left header box */
+.table-left-header{
+	background-color:red;
+	border-top:1px solid black;
+	width: 280px;
+	height: 200px;
+	text-align:center;
+	color:white;
+	
+	
+}
+/*center header box*/
+.table-center-header{
+	background-color:blue;
+	border-top:1px solid black;
+	width: 280px;
+	height: 200px;
+	text-align:center;
+	color:white;
+}
+/*right header box*/
+.table-right-header{
+	background-color:green;
+	border-top:1px solid black;
+	width: 280px;
+	height: 200px;
+	text-align:center;
+	color:white;
+}
+/*header Arrow  */
+.Arrow{
+	
+	font-size:65px;
+	line-height: 1;
+	margin-top: -15px;
+	margin-bottom:-15px;
+	
+}
+/* 3 columns */
+table {
+  transition-duration: 4s;
+  border-spacing: 50px 0;
+  margin-left:auto;
+  margin-right:auto;
+  
+  
+  
+  
+}
+
+
+
+td {
+  padding: 10px 0;
+  border-right:1px solid black;
+  border-left:1px solid black;
+   
+}
+/*left table - info part - under header box*/
+.table-left-info{
+	
+	text-align:center;
+	color:red;
+}
+/*center table - info part - under header box*/
+.table-center-info{
+	text-align:center;
+	color:blue;
+}
+/*right table - info part - under header box*/
+.table-right-info{
+	text-align:center;
+	color:green;
+}
+/*Lines between column*/
+hr{
+	width:50%;
+	color:black;
+}
+
+.middle-color{
+	text-align:center;
+	color:black;
+	font-style:italic;
+	background-color:#E0E0E0;
+}
+
+
+.middle-normal{
+	text-align:center;
+	color:black;
+	font-style:italic;
+	
+}
+
+.table-Description{
+	
+	color:black;
+	font-style:bold;
+	font-size:17px;
+	text-align:center;
+	
+	
+}
+/*Price section left table*/
+.table-left-price{
+	text-align:center;
+	font-size:17px;
+	color:red;
+	
+}
+/*Price section center table*/
+.table-center-price{
+	text-align:center;
+	font-size:17px;
+	color:blue;
+}
+/*Price section right table*/
+.table-right-price{
+	text-align:center;
+	font-size:17px;
+	color:green;
+}
+
+
+.number{
+	font-size:45px;
+	font-weight: bold;
+	display:inline;
+				
+}
+/*General change button*/
+.button {
+  
+  border: none;
+  padding: 14px 32px;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left:60px;
+}
+/*Button left table*/
+.button1 {
+	
+  background-color: red; 
+  color: white; 
+  border-radius: 4px;
+}
+
+.button1:hover {
+   background-color: #f8f4e5;
+   color: red;
+   background: inherit;
+   border-bottom: 2px solid;
+  
+}
+/*Button center table*/
+.button2 {
+	
+  background-color: blue; 
+  color: white; 
+  border-radius: 4px;
+}
+
+.button2:hover {
+   background-color: #f8f4e5;
+   color: blue;
+   background: inherit;
+   border-bottom: 2px solid;
+  
+}
+/*Button right table*/
+.button3 {
+	
+  background-color: green; 
+  color: white; 
+  border-radius: 4px;
+}
+
+.button3:hover {
+   background-color: #f8f4e5;
+   color: green;
+   background: inherit;
+   border-bottom: 2px solid;
+  
+}
+
